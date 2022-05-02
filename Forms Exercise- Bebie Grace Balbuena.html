@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Personal Information</title> 
+    <style>
+        
+        body{
+            background-color: rgb(124, 192, 118); 
+        }
+        h1{
+            color:rgb(17, 43, 14);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 50px;
+            background-color: rgb(155, 218, 104);
+        }
+        form{
+            border-color: rgb(13, 34, 13);
+        }
+        legend{
+            color: rgb(17, 43, 14);
+            font-size: 35px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input{
+            color: rgb(17, 43, 14);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(68, 196, 57); width: 700px;
+        }
+        label{
+            color: rgb(17, 43, 14);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(68, 196, 57);  width: 700px;
+        }
+        select{
+            color: rgb(17, 43, 14);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(68, 196, 57); 
+        }
+        textarea{
+            color: rgb(17, 43, 14);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(68, 196, 57); 
+        }
+        file{
+            color: rgb(17, 43, 14);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(68, 196, 57); 
+        }
+ 
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <h1>Personal Information</h1>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <input type="text" placeholder="First name"/><br>
+            <input type="text" placeholder="Last name"/><br>
+            <input type="number" placeholder="Birthdate"/><br>
+            <input type="text" placeholder="Gender"/><br>
+            <input type="text" placeholder="Civil status"/><br>
+            <input type="text" placeholder="Home Address"/><br>
+            <label for="">Country</label>
+            <select>
+                <option>Albania</option>
+                <option>Argentina</option>
+                <option>Canada</option>
+                <option>China</option>
+                <option>India</option>
+                <option>Philippines</option>
+                <option>Russia</option>
+            </select><br>
+            <input type="number" placeholder="Contact Number"/><br>
+            <textarea rows="6" cols="30">About yourself</textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend>Account Info</legend>
+            <input type="text" placeholder="Username"/><br>
+            <input type="password" placeholder="Password"/><br>
+            <input type="number" placeholder="Birthdate"/><br>
+            <input type="email" placeholder="Email"/><br>
+            <label for="">Profile Picture</label>
+            <input type="file"/><br>
+        </fieldset>   
+        <fieldset>
+        <legend>Submit form</legend>
+            <input type="submit"/><br>
+            <input type="reset"/><br>
+        </fieldset>  
+    </form>
+</body>
+</html>
